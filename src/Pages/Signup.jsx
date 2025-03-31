@@ -1,4 +1,6 @@
-export default function Signup(){
+ import Login from "./Login"
+ 
+ function Signup(){
     
     return(
     <>
@@ -47,6 +49,12 @@ export default function Signup(){
             className=" border-2border-white px-4 py-3 rounded-lg bg-gray-200 hover:bg-gray-300  justify-center gap-2 text-lg transition-all">
                 continue with Google <span><i class="fa-brands fa-google text-xl ml-1.5"></i></span>
             </button>
+
+            <div className="flex flex-col">
+             <p className="text-center  ">Already Have an Account ? </p>
+             <p className="text-center font-bold text-blue-600 ">Login Now</p>
+             </div>
+
          </div>
     
         </form>
@@ -56,3 +64,4 @@ export default function Signup(){
     
     </>)
     }
+    export default Signup
