@@ -31,12 +31,14 @@ export default function Login(){
          <div className=" flex flex-col gap-3">
            <button type="submit"
            className="bg-blue-500 text-white px-4 py-3 rounded-lg transition-all mb-2.5  text-lg border-2 border-white hover:bg-blue-600">
-            Register Now
+            Login
            </button>
             <button type="submit"
             className=" border-2border-white px-4 py-3 rounded-lg bg-gray-200 hover:bg-gray-300  justify-center gap-2 text-lg transition-all">
                 continue with Google <span><i class="fa-brands fa-google text-xl ml-1.5"></i></span>
             </button>
+             <p className="text-center  ">Don't Have an Account ? 
+            <span className="text-blue-800 font-semibold ml-1.5">Signup Now</span></p>
          </div>
     
         </form>
