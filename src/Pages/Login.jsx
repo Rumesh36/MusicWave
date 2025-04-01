@@ -4,7 +4,7 @@
     return(
     <>
     
-    <div className=" bg-blue-500 flex items-center justify-center min-h-screen p-6 md:">
+    <div className="bg-gradient-to-br from-blue-500 to-violet-300  flex items-center justify-center min-h-screen p-6 md:">
         <div className="bg-white p-6 rounded-lg shadow-xl w-96 ">
      <form action="" className="space-y-3">
          <h1 className="font-extrabold text-3xl text-center text-gray-900 ">Login Page</h1>
@@ -14,7 +14,7 @@
             <label htmlFor="user"
             className="text-xl mb-1 text-gray-900">Username </label>
             <input type="text"  name="user" id="user"
-            placeholder="enter the username" 
+            placeholder="Enter the username" 
             className="border border-gray-300 p-3 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"  />
     
          </div>
@@ -23,15 +23,15 @@
     
             <label htmlFor="password"
             className="text-xl mb-1">Password</label>
-            <input type="password" name="pass" id="pass" 
-            placeholder="enter the password"
+            <input type="password" name="password" id="pass" 
+            placeholder="Enter the password"
             className="border border-gray-300 p-3 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400" />
     
          </div>
              
          <div className=" flex flex-col gap-3">
            <button type="submit"
-           className="bg-blue-500 text-white px-4 py-3 rounded-lg transition-all mb-2.5  text-lg border-2 border-white hover:bg-blue-600">
+            className="bg-gradient-to-r from-blue-500 to-blue-600 text-white font-bold px-4 py-3 rounded-lg transition-all mb-2.5  text-lg border-2 border-white hover:hover:from-blue-700 hover:to-blue-800">
             Login
            </button>
             <button type="submit"
@@ -41,7 +41,7 @@
 
             <div className="flex flex-col">
              <p className="text-center  ">Don't Have an Account ? </p>
-            <Link to='/Signup'> <p className="text-center font-semibold text-red-700 ">Register Now</p></Link>
+             <Link to='/Signup'className="text-center font-semibold text-red-700 ">Register Now</Link>
              </div>
              
          </div>
